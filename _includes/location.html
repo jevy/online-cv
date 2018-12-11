@@ -1,16 +1,16 @@
-{% assign languages = site.data.data.sidebar.languages %}
-{% if languages %}
+{% assign locations = site.data.data.sidebar.locations %}
+{% if locations %}
 <div class="languages-container container-block">
 
   <h2 class="container-block-title">
-    Languages
+    HQ
   </h2>
 
   <ul class="list-unstyled interests-list">
-    {%for language in languages %}
+    {%for location in locations %}
     <li>
-      {{ language.idiom }}
-      <span class="lang-desc">{{ language.level }}</span>
+      {{ location.idiom }}
+      <span class="lang-desc">{{ location.level }}</span>
     </li>
     {% endfor %}
   </ul>
