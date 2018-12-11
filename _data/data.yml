@@ -24,6 +24,22 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
+    locations:
+      - idiom: 🇹🇭 Thailand
+        level: 2011-2018
+
+      - idiom: 🇪🇸 Spain
+        level: 2009-2011
+
+      - idiom: 🇩🇰 Denmark
+        level: 2003-2009
+
+      - idiom: 🇩🇪 Germany
+        level: 1990-2003
+
+      - idiom: 🇵🇱 Poland
+        level: 1983-1990
+
     languages:
       - idiom: 🇺🇸 English
         level: Professional
@@ -47,13 +63,13 @@ sidebar:
         level: Basic
 
     interests:
-      - item: SUP Marathons
+      - item: 🚣 SUP Marathons
+        link: "https://sup.girlonsamui.com"
+
+      - item: 🏄 Wakeboarding
         link:
 
-      - item: Wakeboarding
-        link:
-
-      - item: Making
+      - item: 🖥 Making
         link:
 
 career-profile:
