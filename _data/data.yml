@@ -25,25 +25,25 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: 🇺🇸 English
         level: Professional
 
-      - idiom: German
+      - idiom: 🇩🇪 German
         level: Native
 
-      - idiom: Polish
+      - idiom: 🇵🇱 Polish
         level: Native
 
-      - idiom: Danish
+      - idiom: 🇩🇰 Danish
         level: Basic
 
-      - idiom: Spanish
+      - idiom: 🇪🇸 Spanish
         level: Basic
 
-      - idiom: French
+      - idiom: 🇫🇷 French
         level: Basic
 
-      - idiom: Thai
+      - idiom: 🇹🇭 Thai
         level: Basic
 
     interests:
@@ -94,7 +94,7 @@ education:
 experiences:
     - role: Founder, CTO
       time: 2014 - Present
-      company: 📈 pitchXO, Hong Kong
+      company: 📈 pitchXO, 🇭🇰 Hong Kong
       details: |
         Built a Virtual Data Rooms platform from scratch. Unique value prop is understandable "big data" approach - know who views the contents of your data rooms, and when with actionable reports and integrations into popular enterprise platforms.
 
@@ -108,7 +108,7 @@ experiences:
 
     - role: Game Developer, Founder
       time: 2017 - Present
-      company: 👾 Space Mages, Koh Samui
+      company: 👾 Space Mages, 🇹🇭 Koh Samui
       details: |
         Created a whole cloud-based automation pipeline porting a massive ⚡ SWF based codebase into Haxe ( HTML5, Native, Mobile ) compatible code, that was then automatically committed to the main repository based on compilation tests. Work on this ranged from SWF bytecode transpilation to AWS Batch processing within thousands of simultaneous Docker containers.
 
@@ -127,7 +127,7 @@ experiences:
 
     - role: Head Integration Engineer & Enterprise Architect
       time: 2009 - 2012
-      company: ✈️ Everbread, London
+      company: ✈️ Everbread, 🇬🇧 London
       details: |
         Right hand of the CTO. Built an ITA competitor ( acquired by Google, 5 years ) within 9 months. Remote teams, APAC clients, Enterprise Architecture, Travel Tech.
 
@@ -138,7 +138,7 @@ experiences:
 
     - role: CTO, Founder
       time: 2003 - 2009
-      company: 🕹 ESNation A/S, Copenhagen
+      company: 🕹 ESNation A/S, 🇩🇰 Copenhagen
       details: |
         Founded MeetYourMakers - a world-class e-sports team winning championships around the world. Built an online community portal for gamers from scratch and grew it to 1,4 million registered users.
 
