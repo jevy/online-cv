@@ -156,7 +156,7 @@ projects:
       - title: 🐞 Firebug Lite for Google Chrome
         link: "https://chrome.google.com/webstore/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo"
         tagline: 25,000 weekly users
-        description: "Maintaining the old Firebug Lite port for Chrome developers."
+        description: "Maintaining the old Firebug Lite port for newer Chrome versions."
 
       - title: 📑 Tab Manager Plus for Google Chrome
         link: "https://www.producthunt.com/posts/tab-manager-plus-for-chrome"
@@ -168,15 +168,15 @@ projects:
         tagline: 500 weekly users
         description: "A simple extension to remember the AWS resources you recently accessed, and to quickly open new tabs with AWS resources you want to visit."
 
-      - title: 🐞 Dropdown List of Most Visited Links
+      - title: 🍪 Dropdown List of Most Visited Links
         link: "https://chrome.google.com/webstore/detail/dropdown-list-of-most-vis/pbaddbipnfofidkfailfgdmlfapfdaai"
         tagline: 500 weekly users
-        description: "Port for newer Chrome versions."
+        description: "Chrome extension giving the user quick access to his most visited links within a dropdown."
 
       - title: 🤖 Chrome User Script Handler
         link: "https://chrome.google.com/webstore/detail/chrome-user-script-handle/dofpeochehjcckohddplnekbcndhcoid"
         tagline: 500 weekly users
-        description: "Port for newer Chrome versions."
+        description: "Allows users to execute user script within the browser. Port for newer Chrome versions to fix new security model."
 
       - title: ⚾️ BaseBall Scoreboard
         link: "https://chrome.google.com/webstore/detail/baseball-scoreboard/agadfdkijldlopjlbegiklkfdbmhpecj"
@@ -186,11 +186,11 @@ projects:
       - title: 🍥 Simple Reddit
         link: "https://chrome.google.com/webstore/detail/simple-reddit/jejipnoipkfdminjihaekdfipkiddmgo"
         tagline: 100 weekly users
-        description: "A simpler Reddit re-design."
+        description: "A Reddit re-design re-design."
 
       - title: 🤖 AS3HX Online Converter
         link: "http://as3hx.spacemages.com/"
-        description: "Converts AS3 ( Flash ) code to Haxe."
+        description: "Converts AS3 ( Flash ) code online to Haxe."
 
 publications:
     # title: Publications
