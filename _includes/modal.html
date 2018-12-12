@@ -25,19 +25,19 @@
 
 <script type="text/javascript">
 	function createModal(gallerySlug) {
-		// create gallery from template
+		/* create gallery from template */
 		var template = $('#templateModal').clone();
 		template.attr("id", "galleryModal");
 		template.appendTo("body");
 
-		// assign click events to thumbnails inside modal
+		/* assign click events to thumbnails inside modal */
 		var images = jQuery('.item .details img').filter('[data-gallery="'+gallerySlug+'"]');;
 		for(i = 0; i < images.length; i++) {
 			img = images[i];
 			jQuery('<div class="column"><img class="tb demo" src="' + img.src + '"></div>').appendTo("#galleryModal .columns").on("click", currentSlide.bind(this, (i+1)));
 		}
 
-		// add slides inside modal
+		/* add slides inside modal */
 		for(i = images.length; i > 0; i--) {
 			img = images[(i-1)];
 			if(jQuery(img).data('video')) {
@@ -51,16 +51,16 @@
 			}
 		}
 
-		// close modal when background has been clicked
+		/* close modal when background has been clicked */
 		jQuery('#galleryModal').on("click", function(e) {
-			// if click happened on children, do nothing
+			/* if click happened on children, do nothing */
 			if(e.target != this) return;
 			closeModal();
 		});
 	}
 
 	function destroyModal() {
-		// we destroy the modal, so we don't have to handle youtube api pause
+		/* we destroy the modal, so we don't have to handle youtube api pause */
 		$('#galleryModal').remove();
 	}
 
@@ -70,7 +70,7 @@
 		document.getElementById('galleryModal').style.display = "block";
 	}
 
-	// Close the Modal
+	/* Close the Modal */
 	function closeModal() {
 		document.getElementById('galleryModal').style.display = "none";
 		destroyModal();
@@ -83,12 +83,12 @@
 
 	var slideIndex = 1;
 
-	// Next/previous controls
+	/* Next/previous controls */
 	function plusSlides(n) {
 		showSlides(slideIndex += n);
 	}
 
-	// Thumbnail image controls
+	/* Thumbnail image controls */
 	function currentSlide(n) {
 		showSlides(slideIndex = n);
 	}
@@ -97,7 +97,7 @@
 		var i;
 		var slides = document.getElementsByClassName("modalSlides");
 		var dots = document.getElementsByClassName("demo");
-		// var captionText = document.getElementById("caption");
+		/* var captionText = document.getElementById("caption"); */
 		if (n > slides.length) {slideIndex = 1}
 		if (n < 1) {slideIndex = slides.length}
 		for (i = 0; i < slides.length; i++) {
@@ -108,7 +108,7 @@
 		}
 		slides[slideIndex-1].style.display = "block";
 		dots[slideIndex-1].className += " active";
-		// captionText.innerHTML = dots[slideIndex-1].alt;
+		/* captionText.innerHTML = dots[slideIndex-1].alt; */
 	}
 
 	function getVideoHTML(video) {
