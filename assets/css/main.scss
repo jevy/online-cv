@@ -81,6 +81,12 @@ section.summary-section, section.projects-section {
 	background: white;
 }
 
+section.skills-section {
+	background: url(../images/github.png);
+	background-size: cover;
+	position: relative;
+}
+
 .main-wrapper .company, .main-wrapper .university {
     margin-bottom: 10px;
     color: #97AAC3;
