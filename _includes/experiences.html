@@ -26,6 +26,11 @@
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}
+
+      {% if experience.gallery %}
+        {% include gallery.html %}
+      {% endif %}
+
     </div><!--//details-->
     {% endif %}
 
