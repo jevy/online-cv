@@ -1,0 +1,124 @@
+<div id="templateModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+
+		<!-- Next/previous controls -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		<!-- Caption text -->
+		<!-- <div class="caption-container">
+			<p id="caption"></p>
+		</div> -->
+
+	</div>
+
+	<!-- Thumbnail image controls -->
+
+	<div class="columnContainer">
+		<div class="columns">
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+	function createModal(gallerySlug) {
+		// create gallery from template
+		var template = $('#templateModal').clone();
+		template.attr("id", "galleryModal");
+		template.appendTo("body");
+
+		// assign click events to thumbnails inside modal
+		var images = jQuery('.item .details img').filter('[data-gallery="'+gallerySlug+'"]');;
+		for(i = 0; i < images.length; i++) {
+			img = images[i];
+			jQuery('<div class="column"><img class="tb demo" src="' + img.src + '"></div>').appendTo("#galleryModal .columns").on("click", currentSlide.bind(this, (i+1)));
+		}
+
+		// add slides inside modal
+		for(i = images.length; i > 0; i--) {
+			img = images[(i-1)];
+			if(jQuery(img).data('video')) {
+				var video = $(img).data('video');
+				var videoHTML = getVideoHTML(video);
+
+				jQuery('<div class="modalSlides"><div class="numbertext">' + i + ' / ' + (images.length) + '</div><div class="videoWrapper big-image">' + videoHTML + '</div></div>').prependTo("#galleryModal .modal-content");
+
+			}else{
+				jQuery('<div class="modalSlides"><div class="numbertext">' + i + ' / ' + (images.length) + '</div><img src="' + img.src + '" class="big-image"></div>').prependTo("#galleryModal .modal-content");
+			}
+		}
+
+		// close modal when background has been clicked
+		jQuery('#galleryModal').on("click", function(e) {
+			// if click happened on children, do nothing
+			if(e.target != this) return;
+			closeModal();
+		});
+	}
+
+	function destroyModal() {
+		// we destroy the modal, so we don't have to handle youtube api pause
+		$('#galleryModal').remove();
+	}
+
+	function openModal(gallerySlug) {
+		slideIndex = 1;
+		createModal(gallerySlug);
+		document.getElementById('galleryModal').style.display = "block";
+	}
+
+	// Close the Modal
+	function closeModal() {
+		document.getElementById('galleryModal').style.display = "none";
+		destroyModal();
+	}
+
+	function openGallery(index, gallerySlug) {
+		openModal(gallerySlug);
+		currentSlide(index);
+	}
+
+	var slideIndex = 1;
+
+	// Next/previous controls
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
+
+	// Thumbnail image controls
+	function currentSlide(n) {
+		showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("modalSlides");
+		var dots = document.getElementsByClassName("demo");
+		// var captionText = document.getElementById("caption");
+		if (n > slides.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " active";
+		// captionText.innerHTML = dots[slideIndex-1].alt;
+	}
+
+	function getVideoHTML(video) {
+		if(video.indexOf("youtube") > -1) {
+			return '<iframe src="' + video + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+		}
+		if(video.indexOf("vimeo") > -1) {
+			return '<iframe src="' + video + '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+		}
+		return "";
+	}
+
+</script>
