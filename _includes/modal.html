@@ -34,7 +34,7 @@
 		var images = jQuery('.item .details img').filter('[data-gallery="'+gallerySlug+'"]');;
 		for(i = 0; i < images.length; i++) {
 			img = images[i];
-			jQuery('<div class="column"><img class="tb demo" src="' + img.src + '"></div>').appendTo("#galleryModal .columns").on("click", currentSlide.bind(this, (i+1)));
+			jQuery('<div class="column" style="max-width:' + (100/images.length) + '%"><img class="tb demo" src="' + img.src + '"></div>').appendTo("#galleryModal .columns").on("click", currentSlide.bind(this, (i+1)));
 		}
 
 		/* add slides inside modal */
