@@ -108,11 +108,16 @@ education:
     #       - Bullet point
 
 experiences:
-    - role: Founder, CTO
+    - slug: pitchxo
+      role: Founder, CTO
       time: 2014 - Present
       company: 📈 pitchXO, 🇭🇰 Hong Kong
       details: |
-        Built a Virtual Data Rooms platform from scratch. Unique value prop is understandable "big data" approach - know who views the contents of your data rooms, and when with actionable reports and integrations into popular enterprise platforms.
+        Developed a Virtual Data Rooms platform which helped customers raise over $100 million. Unique value proposition is understandable "big data" approach - know who views the contents of documents, and when. Sending immediate actionable reports.
+
+        First stage efforts were in developing the platform from a manual WordPress approach, to a full-standing SaaS that automatically deploys Docker instances for clients.
+
+        Later on integrations with popular enterprise platforms.
 
           - 👨‍💼 3 Developers, 3 Staff
           - 🐳 Docker
@@ -121,8 +126,15 @@ experiences:
           - 🐗 Angular
           - 🐢 node.js
           - 🐘 PHP
+      gallery:
+        - image: pitchxo.jpg
+        - image: pitchxo2.jpg
+        - image: bits.jpg
+        - image: pitchxo-event1.jpg
+        - image: pitchxo-event2.jpg
 
-    - role: Game Developer, Founder
+    - slug: spacemages
+      role: Game Developer, Founder
       time: 2017 - Present
       company: 👾 Space Mages, 🇹🇭 Koh Samui
       details: |
@@ -140,8 +152,13 @@ experiences:
           - 🐿 HTML5 / Webpack
           - 📱 Mobile Targets
           - 🐘 PHP
+      gallery:
+        - image: animaljam.jpg
+        - image: doodpuzzle.jpg
+        - image: lambda.gif
 
-    - role: Head Integration Engineer & Enterprise Architect
+    - slug: everbread
+      role: Head Integration Engineer & Enterprise Architect
       time: 2009 - 2012
       company: ✈️ Everbread, 🇬🇧 London
       details: |
@@ -151,8 +168,14 @@ experiences:
           - 🐨 Atlassian Suite
           - 🐍 Python
           - 🐘 PHP
+      gallery:
+        - image: flydini.png
+        - image: everbread1.jpg
+        - image: haystack.jpg
+          video: https://player.vimeo.com/video/25514964
 
-    - role: CTO, Founder
+    - slug: esnation
+      role: CTO, Founder
       time: 2003 - 2009
       company: 🕹 ESNation A/S, 🇩🇰 Copenhagen
       details: |
@@ -162,6 +185,14 @@ experiences:
           - 🐘 PHP
           - 🐬 MySQL
           - 🕹 eSports
+      gallery:
+        - image: mymym.png
+        - image: mym.jpg
+        - image: mym06.jpg
+        - image: dh08.jpg
+        - image: dh082.jpg
+        - image: interview.jpg
+          video: https://www.youtube-nocookie.com/embed/-lx_AdKjf90
 
 projects:
     title: Open Source Projects
@@ -263,4 +294,4 @@ skills:
         level: 75%
 
 footer: >
-    made in <i class="fas fa-heart"></i> Koh Samui
+    made in 2 days <i class="fas fa-heart"></i> on Koh Samui
