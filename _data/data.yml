@@ -79,7 +79,7 @@ career-profile:
       I have been working with startups in all possible industries for the past 15 years.
       From humble beginnings in eSports communities, to design agencies, banking, mobile gaming, travel tech, fintech and finally SaaS platforms.
 
-      I'm currently based on Samui, and am exclusively interested in remote-only positions.
+      I'm currently based on 🏝 Koh Samui, and am exclusively interested in 🖥 remote-only positions.
 
       Positions I'm interested in : CTO, VP of Engineering, Chief Architect, Director of Cloud Infrastructure, VP of Product Engineering
 
@@ -182,7 +182,7 @@ highlights:
       time: 2003 - 2009
       company: 🕹 ESNation A/S, 🇩🇰 Copenhagen
       details: |
-        Founded MeetYourMakers - a world-class e-sports team winning championships around the world. Built an online community portal for gamers from scratch and grew it to 1,4 million registered users.
+        Founded MeetYourMakers - a world-class e-sports team winning championships around the world. Built an online community portal for gamers from scratch and grew it to 1.4 million registered users.
 
           - 👨‍💼 Team of 4 Developers, 12 Staff, 100 Players, 750 Volunteers
           - 🐘 PHP
@@ -320,12 +320,12 @@ contributions:
       - title: AMF.js - AMF transpiler in Node 
         icon: ⚡️
         link: https://github.com/mikesmullin/amf-js/pulls?q=is%3Apr+is%3Aclosed
-        description: Allows you to export binary ActionScript data into javascript objects. Contributed to AMF transpilation package
+        description: <i>Contributed</i> to the AMF transpilation package, which allows you to export binary ActionScript data into javascript objects.
 
       - title: node-google-spreadsheet
         icon: 🐢
         link: https://github.com/theoephraim/node-google-spreadsheet/pull/182
-        description: Control Google Spreadsheets from node. Worked to reduce memory footprint for massive sheets - and also to make it compatible with AWS Lambda.
+        description: <i>Contributed</i> to the package in reducing the memory footprint for massive sheets - and also to allow controling of your sheets through AWS Lambda.
 
 publications:
     # title: Publications
