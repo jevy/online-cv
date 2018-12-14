@@ -1,5 +1,5 @@
-{% for gallery in experience.gallery %}
+{% for gallery in highlight.gallery %}
   {% if gallery.image %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ gallery.image }}" data-video="{{gallery.video}}" data-gallery="{{experience.slug}}" alt="{{gallery.caption}}" onClick="openGallery({{ forloop.index }}, '{{experience.slug}}')" />
+    <img class="gallery" src="{{ site.baseurl }}/assets/images/{{ gallery.image }}" data-video="{{gallery.video}}" data-gallery="{{highlight.slug}}" alt="{{gallery.caption}}" onClick="openGallery({{ forloop.index }}, '{{highlight.slug}}')" />
   {% endif %}
 {% endfor %}

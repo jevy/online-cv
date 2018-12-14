@@ -1,0 +1,42 @@
+{% assign highlights = site.data.data.highlights %}
+{% if highlights %}
+<section class="section highlights-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs pulse">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    Experiences ( Highlights )
+  </h2>
+
+  {% for highlight in highlights %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ highlight.role }}</h3>
+        <div class="time">{{ highlight.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ highlight.company }}</div>
+
+    </div><!--//meta-->
+
+    {% if highlight.details %}
+    <div class="details">
+      {{ highlight.details | markdownify }}
+
+      {% if highlight.gallery %}
+        {% include gallery.html %}
+      {% endif %}
+
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+

@@ -107,7 +107,7 @@ education:
     #       - Bullet point
     #       - Bullet point
 
-experiences:
+highlights:
     - slug: pitchxo
       role: Founder, CTO
       time: 2014 - Present
@@ -194,6 +194,42 @@ experiences:
         - image: interview.jpg
           video: https://www.youtube-nocookie.com/embed/-lx_AdKjf90
 
+experiences:
+    - slug: pitchxo
+      role: Founder, CTO
+      time: 2014 - Present
+      company: 📈 pitchXO, 🇭🇰 Hong Kong
+
+    - slug: stefanxo
+      role: Director
+      time: 2014 - Present
+      company: 🖥 stefanXO, 🇭🇰 Hong Kong
+
+    - slug: spacemages
+      role: Game Developer, Founder
+      time: 2017 - Present
+      company: 👾 Space Mages, 🇹🇭 Koh Samui
+
+    - slug: saasbuilders
+      role: CTO
+      time: 2016 - 2017
+      company: 👾 SaaS Builders, 🇩🇰 Copenhagen
+
+    - slug: everbread
+      role: Head Integration Engineer & Enterprise Architect
+      time: 2009 - 2012
+      company: ✈️ Everbread, 🇬🇧 London
+
+    - slug: hello
+      role: Solutions Architect
+      time: 2009 - 2009
+      company: 💸 Hello Group A/S, 🇩🇰 Copenhagen
+
+    - slug: esnation
+      role: CTO, Founder
+      time: 2003 - 2009
+      company: 🕹 ESNation A/S, 🇩🇰 Copenhagen
+
 projects:
     title: Open Source Projects
     intro: >
@@ -246,6 +282,42 @@ projects:
         icon: 🤖
         link: "http://as3hx.spacemages.com/"
         description: "Converts AS3 ( Flash ) code online to Haxe."
+
+      - title: itembase Go Api 
+        icon: 🏬
+        link: "https://github.com/saasbuilders/itembase"
+        description: "A Go (golang) REST client library for the itembase API"
+
+contributions:
+    title: Other Contributions and Projects
+    intro: >
+      Projects I have contributed to over the years
+
+    assignments:
+      - title: I ❤️ Data Bangkok Meetup
+        icon: 🤓
+        link: https://www.meetup.com/I-3-Data-Bangkok-Meetup/
+        description: "Co-Founded a 1300 members group of Data Enthusiasts, with 7 meetups ranging from 40-250 attendees"
+
+      - title: Bits & Bretzels 2015
+        icon: 🍻
+        link: https://bitsandpretzels.topi.com/session/markus-stefanko-ceo-pitchxo-morten-lund-angel-investor-onlyxocom-5X5ep
+        description: "Spoke in front of 3,000 Entrepreneurs at the Bits & Pretzels 2015 event in Munich"
+
+      - title: Go Anti-Patterns
+        icon: 🐀
+        link: https://gist.github.com/mastef/05f46d3ab2f5ed6a6787
+        description: "Why os.IsExist(err) != !os.IsNotExist(err) - an important anti-pattern in golang"
+
+      - title: AMF.js - AMF transpiler in Node 
+        icon: ⚡️
+        link: https://github.com/mikesmullin/amf-js/pulls?q=is%3Apr+is%3Aclosed
+        description: Allows you to export binary ActionScript data into javascript objects. Contributed to AMF transpilation package
+
+      - title: node-google-spreadsheet
+        icon: 🐢
+        link: https://github.com/theoephraim/node-google-spreadsheet/pull/182
+        description: Control Google Spreadsheets from node. Worked to reduce memory footprint for massive sheets - and also to make it compatible with AWS Lambda.
 
 publications:
     # title: Publications
@@ -302,4 +374,6 @@ skills:
         level: 75%
 
 footer: >
-    made in 2 days <i class="fas fa-heart"></i> on Koh Samui
+    took 3 days to make <i class="fas fa-heart"></i> on Koh Samui<br />
+    and a lifetime to fill<br /><br />
+    this CV is <a href="https://github.com/mastef/online-cv">open source</a>
