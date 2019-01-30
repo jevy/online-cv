@@ -37,6 +37,9 @@ sidebar:
         level: Professional
 
     interests:
+      - item: 👨‍👩‍👧‍👦 Dad Life
+        link: 
+
       - item: 🥋 Brazilian Jiu Jitsu
         link: 
 
@@ -100,10 +103,10 @@ highlights:
       company: Willowbee.ca
       details: |
         With a lawyer friend of mine, we built the most advanced Canadian will and testiment builder. We decided to make it free with the hopes of finding a business model that works in the future.
-
-      - Built from prototype to production in 3 months
-      - Over 400 wills built in the first two days with only social media advertising.
-      - Futher built a product to incorporate businesses with their minute books in 15 minutes. Used by a number of firms.
+      
+        - Went Built from prototype to production in 3 months
+        - Over 400 wills built in the first two days with only social media advertising.
+        - Futher built a product to incorporate businesses with their minute books in 15 minutes. Used by a number of firms.
 
           - 🐳 Docker/Kubernetes
           - 🐿 Ruby on Rails
