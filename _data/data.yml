@@ -30,23 +30,23 @@ sidebar:
         level: 1982-Present
 
     languages:
-      - idiom: 🇺🇸 English
+      - idiom: English
         level: Native
 
-      - idiom: 🇫🇷 French
+      - idiom:  French
         level: Professional
 
     interests:
-      - item: 👨‍👩‍👧‍👦 Dad Life
+      - item: Dad Life
         link: 
 
-      - item: 🥋 Brazilian Jiu Jitsu
+      - item: Brazilian Jiu Jitsu
         link: 
 
-      - item: 🚴 Biking
+      - item: Biking
         link:
 
-      - item: 🖥 Making
+      - item: Making
         link:
 
 career-profile:
@@ -54,7 +54,7 @@ career-profile:
     summary: |
       I have been starting companies since I was 13 years old. I have built and managed remote teams of up to 12 engineers, designers and product managers in various businesses. When building products for myself and for clients, I learned to became a trial by fire proficient lean product manager. This allows me to effectively factiliate between all types of team members.
       
-      I'm currently based in Ottawa, Canada, and am exclusively interested in 🖥  remote-only positions (with some travel).
+      I'm currently based in Ottawa, Canada, and am exclusively interested in remote-only positions (with some travel).
 
       Positions I'm interested in : CTO, VP/Director of Product Engineering, Head of Applied Data Science, VP Product
 
@@ -68,8 +68,8 @@ education:
 highlights:
     - slug: triage
       role: CTO and Director of Product Engineering
-      time: 2017-2018
-      company: 📈 Triage.com
+      time: 2018-2019
+      company: Triage.com
       details: |
         
         After stepping into a CTO role after there was a 5 month vacuum of technical/product leadership, there was a ton of tech, management and emotional baggage I had to work through with the team. Even still, we accomplished some incredible things.
@@ -82,14 +82,13 @@ highlights:
         - Immedidately implemented (bi)weekly one on ones with everyone on my team.
         - Recruited 2 engineers and 3 devops consultants within 2 months of being in the role.
 
-
         All of the above was accomplished with me and a number of our team members being entirely remote.
 
-          - 👨‍💼 6 Data Scientists, 4 Engineers, 3 Data Managers
-          - 🧠 Keras
-          - 🐳 Docker/Kubernetes
-          - 🐗 React
-          - 🐢 Ruby on Rails
+          - 6 Data Scientists, 4 Engineers, 3 Data Managers
+          - Keras
+          - Docker/Kubernetes
+          - React
+          - Ruby on Rails
       gallery:
         - image: triage1.jpg
         - image: triage2.jpg
@@ -108,8 +107,8 @@ highlights:
         - Over 400 wills built in the first two days with only social media advertising.
         - Futher built a product to incorporate businesses with their minute books in 15 minutes. Used by a number of firms.
 
-          - 🐳 Docker/Kubernetes
-          - 🐿 Ruby on Rails
+          - Docker/Kubernetes
+          - Ruby on Rails
 
       gallery:
         - image: willowbee1.png
@@ -141,28 +140,30 @@ highlights:
         - Developed a predictive model for a day trading company to do market predictions based on their specific style of trading
         - Consulted for a number of organizations to help develop their own internal machine learning product
 
-          - 👨‍💼 (At it's max) Team of 7 Engineers (Consulting), and 2 Designers (Consulting)
+        - (At it's max) Team of 7 Engineers (Consulting), and 2 Designers (Consulting)
+      gallery:
+        - image: bllogo.png
 
 experiences:
     - slug: triage
       role: CTO and Director of Product Engineering
-      time: 2017-2018
-      company: 📈 Triage.com
+      time: 2018-2019
+      company: Triage.com
 
     - slug: willowbee
       role: Product/Tech/Marketing, Founder
       time: 2017 - Present
       company: Willowbee.ca
 
-    - slug: aerial
-      role: VP Product, Co-founder
-      time: 2016-2017
-      company: Aerial.ai, Montreal
-
     - slug: boomlabs
       role: President
       time: 2010 - President
       company: Boomlabs.ai (used to be Quickjack Solutions)
+
+    - slug: aerial
+      role: VP Product, Co-founder
+      time: 2016-2017
+      company: Aerial.ai, Montreal
 
     - slug: feds
       role: Systems Engineer
@@ -176,7 +177,7 @@ contributions:
 
     assignments:
       - title: Lean Startup Circle Montreal
-        icon: 🤓
+        icon: 
         link: https://www.meetup.com/en-AU/Lean-Startup-Circle-Montreal/
         description: "I was the founder of the largest Lean Startup communities in Quebec."
 
@@ -186,7 +187,7 @@ contributions:
         description: "I assist in the coaching of the BJJ class in our local gym where I also train."
 
       - title: Home Routes Ottawa
-        icon: 🍻
+        icon: 
         link: https://homeroutes.ca/
         description: "We volunteer to host concerts in our home for the community. Artists are from all across North America."
 
