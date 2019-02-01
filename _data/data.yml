@@ -177,44 +177,19 @@ contributions:
 
     assignments:
       - title: Lean Startup Circle Montreal
-        icon: 
         link: https://www.meetup.com/en-AU/Lean-Startup-Circle-Montreal/
         description: "I was the founder of the largest Lean Startup communities in Quebec."
 
-      - title: Podcast: Built in a Day
-        icon: 
+      - title: Built in a Day Podcast 
         link: http://builtinadaypodcast.com
         description: "I co-hosted a podcast where individuals call in and we help then de-risk their business idea. Amazing feedback."
 
       - title: Team Bushido Brazillian Jiu Jitsu- Kids coach
-        icon: 
-        link: 
         description: "I assist in the coaching of the BJJ class in our local gym where I also train."
 
       - title: Home Routes Ottawa
-        icon: 
         link: https://homeroutes.ca/
         description: "We volunteer to host concerts in our home for the community. Artists are from all across North America."
-
-publications:
-    # title: Publications
-    # intro: |
-    #   You can list your publications in this section. Lorem ipsum dolor sit
-    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    #   bibendum fringilla a eu lectus.
-
-    # papers:
-    #   - title: The Art of Computer Programming
-    #     authors: Donald E. Knuth
-    #     conference: Addison-Wesley, 1968
-
-    #   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    #     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    #     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-    #   - title: A syntax directed compiler for Algol 60
-    #     authors: Edgar T. Irons
-    #     conference: "Comm. ACM 4 (1961), 51–55"
 
 footer: >
     this CV is <a href="https://github.com/jevy/online-cv">open source</a>
